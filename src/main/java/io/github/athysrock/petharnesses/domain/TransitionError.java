@@ -1,0 +1,14 @@
+package io.github.athysrock.petharnesses.domain;
+
+public enum TransitionError {
+    NONE,
+    INVALID_PHASE,
+    IDENTITY_MISMATCH,
+    SERIALIZATION_FAILED,
+    COMMIT_FAILED,
+    REMOVAL_FAILED,
+    ROLLBACK_FAILED_RECONCILIATION_REQUIRED,
+    DUPLICATE_UUID,
+    RESTORE_FAILED,
+    CLEAR_FAILED_RECONCILIATION_REQUIRED
+}
