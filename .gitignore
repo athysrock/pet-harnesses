@@ -1,0 +1,21 @@
+# Gradle/Loom
+.gradle/
+build/
+out/
+run/
+*.launch
+
+# Reproducible local bootstrap outputs
+.jdk/
+.bootstrap/
+
+# IDE/OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and local overrides
+*.log
+local.properties

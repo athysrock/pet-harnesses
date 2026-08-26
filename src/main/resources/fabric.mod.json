@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pet_harnesses",
+  "version": "${version}",
+  "name": "Pet Harnesses",
+  "description": "Carry your own tamed adult wolf safely in a front-worn harness.",
+  "authors": ["athysrock"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.athysrock.petharnesses.PetHarnesses"],
+    "client": ["io.github.athysrock.petharnesses.client.PetHarnessesClient"]
+  },
+  "mixins": ["pet_harnesses.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.158.0+26.2"
+  }
+}

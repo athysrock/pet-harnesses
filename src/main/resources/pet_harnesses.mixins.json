@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.athysrock.petharnesses.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "DataComponentPatchStreamCodecMixin",
+    "ItemStackStreamCodecMixin",
+    "ItemStackTemplateMixin",
+    "ServerGamePacketListenerMixin",
+    "ServerPlayerDeathMixin"
+  ],
+  "client": ["client.AvatarRendererMixin", "client.WolfRendererMixin"],
+  "injectors": {"defaultRequire": 1}
+}
